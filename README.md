@@ -17,15 +17,15 @@ this is an open source implementation of the minecraft server to be run on a esp
 ![alt text](https://github.com/nikisalli/esp32-minecraft-server/blob/main/images/image4.jpg?raw=true)
 
 # TODO
-- ✅ better way to buffer data and auto packet length calculation
-- ✅ general cleanup
-- parse more packets sent from the client
-- maybe add specific blocks for hardware interaction?
-- ✅ (8 bits per block now) better way of storing chunks
-- support psram for greater room for more chunks and players
-- save game progress
-- maybe support more protocols? (takes a lor of effort)
-- better client handling
+- [x] better way to buffer data and auto packet length calculation
+- [x] general cleanup
+- [ ] parse more packets sent from the client
+- [ ] maybe add specific blocks for hardware interaction?
+- [x] (8 bits per block now) better way of storing chunks
+- [ ] support psram for greater room for more chunks and players
+- [ ] save game progress
+- [ ] maybe support more protocols? (takes a lor of effort)
+- [ ] better client handling
 
 # known issues
 - sometimes when a client disconnects it may take several packets for the server to notice
